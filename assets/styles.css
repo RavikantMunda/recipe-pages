@@ -1,0 +1,113 @@
+:root{
+    --web-bg-color: hsl(332, 51%, 32%);
+    --box-bg-color: hsl(0, 0%, 100%);
+    --web-p-color: hsl(14, 45%, 36%);
+    --web-box-bg: hsl(330, 100%, 98%);
+    --web-box-color:hsl(332, 51%, 32%);
+    --web-bog-color: hsl(30, 54%, 90%);
+    ;
+
+}
+@font-face {
+    font-family: 'Cherry';
+    src: url('fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face 
+{
+    font-family: 'Foody';
+    src: url('fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+body 
+{
+    background-color: var(--web-bog-color);
+    display: flex; 
+    justify-content: center;
+}
+.main
+{
+    background-color: var(--box-bg-color);
+    margin-top: 3rem;
+    width: 40rem;
+    border-radius: 20px;
+}
+img{
+    width: 35rem;
+    
+}
+.dosa
+{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.dosa-title, .dosa-prep-samaan, .dosa-prep-cookbook, .dosa-nutrichoice
+{
+    padding-left: 2rem;
+    width: rem;
+}
+h3{
+    color: var(--web-box-color);
+
+}
+h1, h2 
+{
+    font-family: 'Cherry';
+}
+h2
+{
+    color: var(--web-p-color);
+}
+
+.dosa-prep-samaan ul, .dosa-prep-cookbook ol
+{
+    padding-left: 1rem; 
+}
+
+.dosa-prep-time
+{
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    width: 33rem;
+    margin-left: 2rem;
+    background-color: var(--web-box-bg);
+    padding-bottom: 0.5rem;
+}
+p,b, li, h3
+{
+    font-family: 'Foody';
+}
+li{
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1.5rem;
+}
+hr
+{
+    width: 90%;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 5rem;
+}
+td
+{  
+padding-left: 1rem;
+ padding-right: 12rem; 
+ padding-bottom: 0.5rem;  
+ padding-top: 0.5rem;
+ border-bottom: 1px solid black; 
+ font-family: 'Foody';
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+    
+p{
+    padding-right: 1.5rem;
+}
+
+.grams
+{
+    color: var(--web-bg-color)
+}
